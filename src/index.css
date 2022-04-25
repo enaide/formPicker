@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Fira Sans', sans-serif;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: start;
+  /* margin-top: 6rem; */
+}
+main img {
+  align-self: start;
+  margin-top: 11%;
+}
+
+@media (min-width:  270px) and (max-width:768px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+@media (min-width:  270px) and (max-width:575px) {
+  main {
+    display: block;
+  }
+
+  main img.map {
+    align-self: start;
+    width: 60%;
+  }
+}
+
+@media (min-width:  576px) and (max-width:768px){
+  main {
+    display: block;
+  }
+  main img.map {
+    align-self: start;
+    width: 60%;
+  }
+}
+
+@media (min-width:  769px) and (max-width:991px){
+  main {
+    display: block;
+  }
+  main img.map {
+    align-self: start;
+    width: 60%;
+  }
+}
